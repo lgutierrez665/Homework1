@@ -3,8 +3,9 @@
 // August 08 2020
 // CSIS 113A
 #include <iostream>
+using namespace std;
 
 int main() {
-  std::cout << "Hello, World!" << std::endl;
+  cout << "Hello world!" << endl;
   return 0;
 }
