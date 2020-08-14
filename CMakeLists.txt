@@ -6,3 +6,5 @@ set(CMAKE_CXX_STANDARD 20)
 add_executable(activity_01 activity_01.cpp)
 
 add_executable(activity_02 activity_02.cpp)
+
+add_executable(activity_03 activity_03.cpp)
