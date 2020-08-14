@@ -4,7 +4,8 @@
 // CSIS 113A
 #include <iostream>
 
-using namespace std;
+using std::cout;
+using std::endl;
 
 int main() {
   // displays the string literal "Hello world!" to the console.
