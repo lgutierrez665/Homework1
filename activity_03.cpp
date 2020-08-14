@@ -22,6 +22,7 @@ int main()
     // lets add some spacing between this picture and the next set of outputs
     cout << "\n\n" << endl;
 
+
     // display an example of a receipt with only literals.
     cout << "===================================" << endl;
     cout << "                       Aug 08, 2020" << endl;
