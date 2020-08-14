@@ -7,18 +7,23 @@
 using std::cout;
 using std::endl;
 
-int main() {
-  // displays the string literal "Hello world!" to the console.
-  cout << "Hello world!" << endl;
+int main()
+{
+    // this statement displays 'Hello' to the screen. Notice the use of std:: before
+    // the cout statement, this is because it is from the standard library. We can
+    // clean this up by bringing the cout command into the global scope, by the
+    // using statement you see on line 7.
+    std::cout << "Hello\n";
 
-  // display an example of a receipt with only literals.
-  cout << "===================================" << endl;
-  cout << "                       Aug 08, 2020" << endl;
-  cout << "===================================" << endl;
-  cout << "Customer: Barry Allen" << endl;
-  cout << "Large pizzas: " << 2 << endl;
-  cout << "\n";
-  cout << "                   ----------------" << endl;
-  cout << "                   $          " << 22.47 << endl;
-  cout << "===================================" << endl;
+    // since we added line 7, we can use cout directly, this is what it means to bring
+    // the command into the global scope. To clean the code up, we also want to move the
+    // "\n", which moves the cursor to the next line, to a chained stream. Notice the
+    // use of the << (insertion operator), which streams the information towards the cout
+    // command, which is directing to display the information as if we are pulling a string
+    // through in the <---- direction.
+    cout << "Hello world!" << "\n";
+
+    // we can also utilize the stream command endl (stands for end line)
+    // clean code is going to be a consistent concept throughout this course.
+    cout << "Saying hello again!" << endl;
 }
