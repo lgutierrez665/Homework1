@@ -22,6 +22,8 @@ int main()
     // lets add some spacing between this picture and the next set of outputs
     cout << "\n\n" << endl;
 
+    // we can draw the raw characters
+    
 
     // display an example of a receipt with only literals.
     cout << "===================================" << endl;
