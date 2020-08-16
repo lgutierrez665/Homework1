@@ -1,5 +1,5 @@
 
-// Guided Practice
+// Practice Activity
 #include <iostream>
 
 using std::cout;

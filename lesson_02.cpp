@@ -20,8 +20,17 @@ int main()
     cout << "***************" << endl;
 
     // lets add some spacing between this picture and the next set of outputs
-    cout << "\n\n" << endl;
+    cout << "\n" << endl;
 
-    // we can draw the raw characters
+    // an example of an integer literal
+    cout << 3 << " + " << 7 << " = " << 3+7 << "\n" << endl;
 
+    // using the toascii command to convert a character literal to an integer value
+    cout << "ascii value of the letter 'A': " << toascii('A') << endl;
+    cout << "ascii value of the letter 'a': " << toascii('a') << endl;
+
+    // we can utilize 0b to denote the start of a binary literal
+    cout << "\n" << endl;
+    cout << "          2020: " << "0111 1110 0100" << endl;
+    cout << "0111 1110 0100: " << 0b0111'1110'0100 << endl;
 }
