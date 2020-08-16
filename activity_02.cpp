@@ -1,5 +1,7 @@
 // TODO: add your information here
 
+// Participation Activity
+
 // TODO: start by adding the include statement
 
 // TODO: add in using statement(s) for printing to the console
