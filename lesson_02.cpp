@@ -20,18 +20,34 @@ int main() {
   cout << "***************" << endl;
 
   // lets add some spacing between this picture and the next set of outputs
-  cout << "\n" << endl;
-
-  // an example of an integer literal
-  cout << 3 << " + " << 7 << " = " << 3 + 7 << "\n" << endl;
+  cout << endl;
 
   // using the toascii command to convert a character literal to an integer
-  // value
+  // value. Notice that a single character is made using single quotes ' '
+  // The basic subunit in communication is that of ascii values.
   cout << "ascii value of the letter 'A': " << toascii('A') << endl;
-  cout << "ascii value of the letter 'a': " << toascii('a') << endl;
+  cout << "ascii value of the letter 'a': " << toascii('a') << "\n" << endl;
+
+  // an example of an integer literal and addition operation
+  cout << 3 << " + " << 7 << " = " << 3 + 7 << endl;
+  cout << 3 << " x " << 7 << " = " << 3*7 << endl;
+
+  // notice something strange about integer division?
+  // we can use the unicode symbol for the division sign if we'd like
+  cout << 3 << " / " << 7 << " = " << 3/7 << endl;
+  cout << 3 << " \u00F7 " << 7 << " = " << 3/7 << endl;
+
+  // for this reason we have modulus (determines the remainder
+  cout << 3 << " mod " << 7 << " = " << 3%7 << "\n" << endl;
+
+  // another important literal is that of a double (floating point number), which is one
+  // that has a decimal in it.
+  cout << "Total Cost: $ " << 22.37 << endl;
+  cout << "Atomic Mass of Oxygen: " << 15.999 << " U" << endl;
+  cout << "Atomic Mass of Oxygen: " << 15.999 << " g/mol" << endl;
+  cout << "Avogadro's Number    : " << 6.022e23 << " molecules per mole" << "\n" << endl;
 
   // we can utilize 0b to denote the start of a binary literal
-  cout << "\n" << endl;
   cout << "          2020: " << "0111 1110 0100" << endl;
   cout << "0111 1110 0100: " << 0b0111'1110'0100 << endl;
 }
