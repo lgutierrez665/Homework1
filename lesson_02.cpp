@@ -45,7 +45,7 @@ int main() {
   cout << "Total Cost: $ " << 22.37 << endl;
   cout << "Atomic Mass of Oxygen: " << 15.999 << " U" << endl;
   cout << "Atomic Mass of Oxygen: " << 15.999 << " g/mol" << endl;
-  cout << "Avogadro's Number    : " << 6.022e23 << " molecules per mole" << "\n" << endl;
+  cout << "Avogadro's Number    : " << 6.022e23 << " particles per mole" << "\n" << endl;
 
   // we can utilize 0b to denote the start of a binary literal
   cout << "          2020: " << "0111 1110 0100" << endl;

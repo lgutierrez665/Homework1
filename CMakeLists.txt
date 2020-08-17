@@ -10,3 +10,5 @@ add_executable(activity_01 activity_01.cpp)
 add_executable(lesson_02 lesson_02.cpp)
 
 add_executable(activity_02 activity_02.cpp)
+
+add_executable(challenge_01 challenge_01.cpp)
