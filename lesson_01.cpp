@@ -1,6 +1,6 @@
-// Author: David C Hernandez
-// GitHub: https://github.com/dhernandez-msjc/csis_113a_output_and_literals.git
-// August 08, 2020
+// Author: Luis Gutierrez
+// GitHub:
+// August 21 2020
 // CSIS 113A
 #include <iostream>
 

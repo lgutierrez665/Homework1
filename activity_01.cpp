@@ -1,11 +1,16 @@
-// TODO: add your information here
+// Author: Luis Gutierrez
+// GitHub:
+// August 21 2020
+// CSIS 113A
 
-// Participation Activity
+  #include <iostream>
 
-// TODO: start by adding the include statement
+using std:: cout;
+using std:: endl;
 
-// TODO: add in using statement(s) for printing to the console
+int main(){
+cout << "Luis Gutierrez" << endl;
+return 0;
+}
 
-// TODO: create main function
 
-// TODO: add commands to display your name to the console
