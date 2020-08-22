@@ -1,5 +1,8 @@
-
-// Practice Activity
+// Author: Luis Gutierrez
+// GitHub:
+// August 22 2020
+// CSIS 113A
+// Activity 2
 #include <iostream>
 
 using std::cout;
@@ -10,13 +13,20 @@ int main() {
   cout << "How many atoms of O (atomic Oxygen) are in 2.1 grams? " << endl;
   cout << "======================================================" << "\n" << endl;
 
-  // TODO: Display the atomic mass for Oxygen, along with a label stating it is the atomic mass of Oxygen (literals only)
+  cout << "Atomic mass of Oxygen      : " << 15.99 << "       g/ mol" << endl;
 
-  // TODO: display the amount of grams of O we are converting
+  cout << "Grams of Oxygen            :  " << 2.1 << "        g" << endl;
 
-  // TODO: display Avogadro's Number
+  cout << "Avogadro's Number          :  " << 6.022e23 << "  atoms/ mol" << "\n" << endl;
 
-  // TODO: display the conversion equation
+  cout << "   Grams of Oxygen   " << endl;
 
-  // TODO: display the final solution
+  cout << "--------------------- x Avogadro's Number" << endl;
+
+  cout << "Atomic Mass of Oxygen" << "\n" << endl;
+
+  cout << 2.1 << "g Oxygen = " << (2.1 / 15.99) * 6.022e23 << " Atoms" << endl;
+
+  cout << "======================================================" << "\n" << endl;
+
 }

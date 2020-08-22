@@ -1,20 +1,29 @@
-/* TODO: attempt the challenge to create a receipt using only literals (different types)
- * The final output should look similar to the following:
- *
- * ==================================
- *                       Aug 17, 2020
- * ==================================
- * Customer: Bob Kent
- *
- * Pizzas  : 2
- * Price   : $ 4.25
- *
- *                    SubTotal: $8.50
- *                         Tax: $1.00
- *                    ---------------
- *                    $          9.50
- *
- *             Thank You!
- * ==================================
- *
- * */
+// Author: Luis Gutierrez
+// GitHub:
+// August 22 2020
+// CSIS 113A
+// Mini-Challenge 1
+#include <iostream>
+
+using std::cout;
+using std::endl;
+
+int main() {
+  cout << "==================================" << endl;
+  cout << "                      Aug 22, 2020" << endl;
+  cout << "==================================" << "\n" << endl;
+
+  cout << "Customer: " << "Bob Kent" << "\n" << endl;
+
+  cout << "Pizzas:  " << 2 << endl;
+  cout << "Price :  " << "$4.25" << "\n" << endl;
+
+  cout << "                     Subtotal:" << "$8.50" << endl;
+  cout << "                          Tax:" << "$1.00" << endl;
+  cout << "                     ==============" << endl;
+  cout << "                      $       " << "$9.50" << "\n" << endl;
+
+  cout << "             Thank You!                  " << endl;
+
+  cout << "==================================" << endl;
+}
